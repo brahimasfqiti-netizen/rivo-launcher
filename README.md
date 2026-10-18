@@ -1,70 +1,51 @@
 # Rivo Launcher
 
-**Rivo Launcher** — Minecraft: Java Edition launcher experience for iOS, branded for the **Rivo MC** community.
+**Rivo Launcher** = [PocketJLauncher](https://github.com/EricoEC/PocketJLauncher) with **only the name changed** to Rivo.
 
-> Based on the open-source project [PocketJLauncher](https://github.com/EricoEC/PocketJLauncher) (GPL-3.0), which itself builds on Amethyst-iOS / PojavLauncher.
-
----
-
-## Features (from upstream PocketJ)
-
-- Microsoft **and offline** accounts
-- Full Minecraft version range (classic → modern)
-- Fabric / Forge / NeoForge / Quilt
-- Mods, modpacks, resource packs (Modrinth & CurseForge)
-- Built-in JIT workflow for iOS
-- Native UI, touch controls, instance management
+Minecraft: Java Edition launcher for **iPhone / iPad**  
+Supports Microsoft accounts + **offline accounts** · mods · full versions
 
 ---
 
-## Rivo MC
+## ⚡ أسهل طريقة (بدون ما تبني من السورس)
+
+1. حمّل IPA من هنا:  
+   **https://github.com/EricoEC/PocketJLauncher/releases**
+2. ثبّتو بـ **AltStore** أو **SideStore** أو **TrollStore**
+3. أضف حساب **Offline** (أي اسم)
+4. Multiplayer → Server: **`rivo.hostivo.vip`**
+5. Discord: https://discord.gg/eeYv8PBqw
+
+هاد كافي للاعبين ديال Rivo MC.
+
+---
+
+## 🎨 باش يكون التطبيق مكتوب عليه "Rivo Launcher" (تغيير الاسم فقط)
+
+اتبع الملف: **[SETUP_AR.md](SETUP_AR.md)** — خطوات واضحة بالدارجة + إنجليزي.
+
+ملخص سريع:
+1. Fork المشروع الأصلي
+2. Clone عندك
+3. شغّل سكريبت `rename-to-rivo.sh`
+4. افتح Xcode → غيّر الأيقونة + Bundle ID
+5. Build على الآيفون
+
+خاص يكون عندك: **Mac + Xcode**
+
+---
+
+## روابط Rivo
 
 | | |
-|---|---|
-| **Server** | `rivo.hostivo.vip` |
-| **Discord** | [Join](https://discord.gg/eeYv8PBqw) |
-| **Store** | [rivo-mc-store](https://github.com/brahimasfqiti-netizen/rivo-mc-store) |
-
-Play on Rivo MC with an **offline account** (server uses offline-friendly setup) or a Microsoft account.
-
----
-
-## How to use (recommended)
-
-### Option A — Use PocketJ and join Rivo
-1. Download latest IPA from [PocketJ Releases](https://github.com/EricoEC/PocketJLauncher/releases)
-2. Install via AltStore / SideStore / TrollStore
-3. Add **Offline account** (any name) or Microsoft account
-4. Create instance → launch
-5. Multiplayer → Server Address: `rivo.hostivo.vip`
-
-### Option B — Full rebrand as Rivo Launcher (advanced)
-1. Fork [EricoEC/PocketJLauncher](https://github.com/EricoEC/PocketJLauncher)
-2. Clone your fork
-3. In Xcode:
-   - Product Name → `Rivo Launcher`
-   - Bundle ID → `com.rivo.launcher`
-   - Replace app icons with Rivo logo
-4. Update `README` and display strings from "PocketJ" → "Rivo"
-5. Build & sign with your Apple team
-
-Requires **macOS + Xcode**.
+|--|--|
+| Server | `rivo.hostivo.vip` |
+| Discord | https://discord.gg/eeYv8PBqw |
+| Store | https://github.com/brahimasfqiti-netizen/rivo-mc-store |
+| Upstream | https://github.com/EricoEC/PocketJLauncher |
 
 ---
 
-## License & credits
+## License
 
-- Upstream: [PocketJLauncher](https://github.com/EricoEC/PocketJLauncher) — GPL-3.0
-- Original authors: Erico / Amethyst / PojavLauncher / Boardwalk contributors
-- Rivo branding: Rivo MC community
-
-If you distribute a modified binary, you **must** comply with GPL-3.0 (source available, license notice, etc.).
-
----
-
-## Links
-
-- PocketJ source: https://github.com/EricoEC/PocketJLauncher
-- Rivo Store (PWA): https://github.com/brahimasfqiti-netizen/rivo-mc-store
-- Discord: https://discord.gg/eeYv8PBqw
-- Server: `rivo.hostivo.vip`
+Upstream **GPL-3.0** — أي نسخة معدّلة خاصك تنشر السورس وتحافظ على الرخصة.
